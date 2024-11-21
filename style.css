@@ -1,0 +1,34 @@
+.frame{
+    height:700px;
+    width:600px;
+    border:60px solid black;
+    padding:60px;
+    margin:20px auto;
+}
+.canvas{
+    height:700px;
+    width:600px;
+    background-color: darkgoldenrod;
+    overflow:hidden;
+    filter:blur(2px);
+}
+.one{
+    height:175px;
+    width:550px;
+    background-color:aquamarine;
+    margin:30px auto;
+    filter:blur(3px);
+    box-shadow: 0 0 3px 3px aquamarine;
+    border-radius:15px 20px 45px 5px;
+    transform:rotate(-0.3deg);
+}
+.two{
+    height:430px;
+    width:555px;
+    background-color:maroon;
+    margin:auto;
+    filter:blur(4px);
+    box-shadow: 0 0 4px 4px maroon;
+    border-radius:50px 5px;
+    transform:rotate(0.6deg);
+}
